@@ -12,5 +12,10 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="avatar_desc">Contact Avatar</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="send">Send</string>
+    <string name="message_hint">Type here…</string>
+    <string name="empty_contact">You have no friend! Click add to add some…</string>
+    <string name="empty_conversation">No conversation!</string>
 
 </resources>

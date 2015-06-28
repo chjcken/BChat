@@ -1,4 +1,4 @@
-package com.bchat.info;
+package com.bchat.item;
 
 public class Contact {
 	private String id;

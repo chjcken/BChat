@@ -3,6 +3,7 @@ package com.bchat.activity;
 import com.bchat.R;
 
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,12 +12,17 @@ import android.view.View;
 
 public class LoginActivity extends ActionBarActivity {
 
+	private Toolbar toolbar;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-
-		
+		//getSupportActionBar().hide();
 		setContentView(R.layout.activity_login);
+		
+		// Creating The Toolbar and setting it as the Toolbar for the activity
+		 
+        //toolbar = (Toolbar) findViewById(R.id.tool_bar);
+        //setSupportActionBar(toolbar);
 
 		//getSupportActionBar().hide();
 	}
@@ -44,5 +50,10 @@ public class LoginActivity extends ActionBarActivity {
 		Intent intent = new Intent(this, MainActivity.class);
 		startActivity(intent);
 		finish();
+	}
+	
+	public void btnRegister_onClick(View v){
+		Intent intent = new Intent(this, ChatActivity.class);
+		startActivity(intent);
 	}
 }

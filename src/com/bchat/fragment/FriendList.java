@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 import com.bchat.R;
 import com.bchat.adapter.ListContactAdapter;
-import com.bchat.info.Contact;
+import com.bchat.item.Contact;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

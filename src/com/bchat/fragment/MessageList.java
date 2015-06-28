@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 import com.bchat.R;
 import com.bchat.adapter.ListContactAdapter;
-import com.bchat.info.Contact;
+import com.bchat.item.Contact;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -26,11 +26,11 @@ public class MessageList extends Fragment {
 		View rootView = inflater.inflate(R.layout.fragment_messagelist, container, false);
 		
 		listContact = new ArrayList<Contact>();
-		listContact.add(new Contact("datvt", "tien dat", "chjcken123@gmail.com"));
-		listContact.add(new Contact("davt77", "kiss dee", null));
+		//listContact.add(new Contact("datvt", "tien dat", "chjcken123@gmail.com"));
+		//listContact.add(new Contact("davt77", "kiss dee", null));
 		
 		ListContactAdapter listAdapter = new ListContactAdapter(container.getContext(), listContact);
-		listMessage = (ListView)rootView.findViewById(R.id.list_message);
+		listMessage = (ListView)rootView.findViewById(R.id.list_conversation);
 		listMessage.setAdapter(listAdapter);
 		
 		return rootView;

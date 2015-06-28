@@ -4,5 +4,5 @@
     <color name="ColorPrimaryDark">#e2e331</color>
     <color name="tabScrollColor">#757575</color>
     <color name="black">#000000</color>
-    
+    <color name="grey">#808080</color>
 </resources>

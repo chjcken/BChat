@@ -7,6 +7,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.bchat.activity.LoginActivity" >
+    
+
 
     <TextView
         android:id="@+id/textViewID"
@@ -78,6 +80,7 @@
         android:layout_alignBaseline="@+id/buttonLogin"
         android:layout_alignBottom="@+id/buttonLogin"
         android:layout_toRightOf="@+id/textViewTitle"
+        android:onClick="btnRegister_onClick"
         android:text="@string/register" />
 
 </RelativeLayout>

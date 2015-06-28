@@ -13,5 +13,14 @@
 	    android:layout_marginLeft="10dp"
 	    android:layout_marginRight="10dp"
 	    ></ListView>
+	
+	<TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:textColor="@color/grey"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="@string/empty_contact"
+        />
     
 </LinearLayout>
