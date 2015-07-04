@@ -12,13 +12,18 @@
         -->
     </style>
     
-    <style name="ActionBarPopupThemeOverlay" parent="Theme.AppCompat.Light.NoActionBar">
-    	<item name="android:windowActionBar">false</item>
-	</style>
+
+<!--     Application theme. -->
+<!--     <style name="AppTheme" parent="AppBaseTheme"> -->
+<!--         All customizations that are NOT specific to a particular API-level can go here. -->
+<!--     </style> -->
 
     <!-- Application theme. -->
-    <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!-- Background Color for Toolbar -->
+        <item name="colorPrimary">@color/ColorPrimary</item>
     </style>
 
 </resources>

@@ -1379,19 +1379,20 @@ containing a value of this type.
     public static final class color {
         public static final int ColorPrimary=0x7f060031;
         public static final int ColorPrimaryDark=0x7f060032;
-        public static final int abc_background_cache_hint_selector_material_dark=0x7f060036;
-        public static final int abc_background_cache_hint_selector_material_light=0x7f060037;
+        public static final int ColorSecondary=0x7f060037;
+        public static final int abc_background_cache_hint_selector_material_dark=0x7f060038;
+        public static final int abc_background_cache_hint_selector_material_light=0x7f060039;
         public static final int abc_input_method_navigation_guard=0x7f060003;
-        public static final int abc_primary_text_disable_only_material_dark=0x7f060038;
-        public static final int abc_primary_text_disable_only_material_light=0x7f060039;
-        public static final int abc_primary_text_material_dark=0x7f06003a;
-        public static final int abc_primary_text_material_light=0x7f06003b;
-        public static final int abc_search_url_text=0x7f06003c;
+        public static final int abc_primary_text_disable_only_material_dark=0x7f06003a;
+        public static final int abc_primary_text_disable_only_material_light=0x7f06003b;
+        public static final int abc_primary_text_material_dark=0x7f06003c;
+        public static final int abc_primary_text_material_light=0x7f06003d;
+        public static final int abc_search_url_text=0x7f06003e;
         public static final int abc_search_url_text_normal=0x7f060000;
         public static final int abc_search_url_text_pressed=0x7f060002;
         public static final int abc_search_url_text_selected=0x7f060001;
-        public static final int abc_secondary_text_material_dark=0x7f06003d;
-        public static final int abc_secondary_text_material_light=0x7f06003e;
+        public static final int abc_secondary_text_material_dark=0x7f06003f;
+        public static final int abc_secondary_text_material_light=0x7f060040;
         public static final int accent_material_dark=0x7f06000f;
         public static final int accent_material_light=0x7f06000e;
         public static final int background_floating_material_dark=0x7f060006;
@@ -1415,7 +1416,7 @@ containing a value of this type.
         public static final int dim_foreground_disabled_material_light=0x7f06001d;
         public static final int dim_foreground_material_dark=0x7f06001a;
         public static final int dim_foreground_material_light=0x7f06001b;
-        public static final int grey=0x7f060035;
+        public static final int grey=0x7f060036;
         /**  TODO: This is 40% alpha on the default accent color. 
          */
         public static final int highlighted_text_material_dark=0x7f060020;
@@ -1452,6 +1453,7 @@ containing a value of this type.
         public static final int switch_thumb_normal_material_dark=0x7f060012;
         public static final int switch_thumb_normal_material_light=0x7f060013;
         public static final int tabScrollColor=0x7f060033;
+        public static final int white=0x7f060035;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -1640,14 +1642,17 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f020032;
         public static final int button_send_background=0x7f020033;
         public static final int default_avatar=0x7f020034;
-        public static final int ic_contact=0x7f020035;
-        public static final int ic_contact_add=0x7f020036;
-        public static final int ic_contact_selected=0x7f020037;
-        public static final int ic_conversation=0x7f020038;
-        public static final int ic_conversation_selected=0x7f020039;
-        public static final int ic_launcher=0x7f02003a;
-        public static final int speech_bubble_green=0x7f02003b;
-        public static final int speech_bubble_yellow=0x7f02003c;
+        public static final int ic_alert=0x7f020035;
+        public static final int ic_contact=0x7f020036;
+        public static final int ic_contact_add=0x7f020037;
+        public static final int ic_contact_selected=0x7f020038;
+        public static final int ic_conversation=0x7f020039;
+        public static final int ic_conversation_selected=0x7f02003a;
+        public static final int ic_launcher=0x7f02003b;
+        public static final int ic_password=0x7f02003c;
+        public static final int ic_username=0x7f02003d;
+        public static final int speech_bubble_green=0x7f02003e;
+        public static final int speech_bubble_yellow=0x7f02003f;
     }
     public static final class id {
         public static final int action_bar=0x7f090033;
@@ -1668,8 +1673,7 @@ containing a value of this type.
         public static final int always=0x7f090014;
         public static final int beginning=0x7f09001b;
         public static final int bottom=0x7f09001e;
-        public static final int buttonLogin=0x7f090049;
-        public static final int buttonRegister=0x7f09004b;
+        public static final int buttonLogin=0x7f090047;
         public static final int checkbox=0x7f09002b;
         public static final int collapseActionView=0x7f090015;
         public static final int contact_item_avatar=0x7f09004e;
@@ -1679,7 +1683,7 @@ containing a value of this type.
         public static final int dialog=0x7f090019;
         public static final int disableHome=0x7f09000d;
         public static final int dropdown=0x7f09001a;
-        public static final int editTextID=0x7f090047;
+        public static final int editTextID=0x7f090046;
         public static final int editTextPass=0x7f090048;
         public static final int edit_query=0x7f090035;
         public static final int end=0x7f09001c;
@@ -1729,9 +1733,10 @@ containing a value of this type.
         public static final int submit_area=0x7f09003e;
         public static final int tabMode=0x7f09000c;
         public static final int tabs=0x7f09004c;
-        public static final int textViewID=0x7f090045;
-        public static final int textViewPass=0x7f090046;
-        public static final int textViewTitle=0x7f09004a;
+        public static final int textViewForgotPassword=0x7f09004a;
+        public static final int textViewNoInternet=0x7f09004b;
+        public static final int textViewSignup=0x7f090049;
+        public static final int textViewTitle=0x7f090045;
         public static final int title=0x7f090029;
         public static final int top=0x7f09001f;
         public static final int up=0x7f090001;
@@ -1863,20 +1868,22 @@ containing a value of this type.
         public static final int avatar_desc=0x7f0a0019;
         public static final int empty_contact=0x7f0a001d;
         public static final int empty_conversation=0x7f0a001e;
+        public static final int forgot_password=0x7f0a001f;
         public static final int hello_world=0x7f0a0018;
         public static final int id=0x7f0a0010;
         public static final int id_hint=0x7f0a0011;
         public static final int login=0x7f0a0015;
         public static final int message_hint=0x7f0a001c;
+        public static final int no_internet=0x7f0a0021;
         public static final int password=0x7f0a0012;
         public static final int password_hint=0x7f0a0013;
         public static final int register=0x7f0a0016;
         public static final int send=0x7f0a001b;
+        public static final int signup=0x7f0a0020;
         public static final int title_activity_chat=0x7f0a001a;
         public static final int title_activity_main=0x7f0a0017;
     }
     public static final class style {
-        public static final int ActionBarPopupThemeOverlay=0x7f0b00ec;
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
@@ -1899,10 +1906,15 @@ containing a value of this type.
  API 14 theme customizations can go here. 
          */
         public static final int AppBaseTheme=0x7f0b00eb;
-        /**  Application theme. 
- All customizations that are NOT specific to a particular API-level can go here. 
+        /**      Application theme. 
+     <style name="AppTheme" parent="AppBaseTheme"> 
+         All customizations that are NOT specific to a particular API-level can go here. 
+     </style> 
+ Application theme. 
+ Application theme. 
+ Application theme. 
          */
-        public static final int AppTheme=0x7f0b00ed;
+        public static final int AppTheme=0x7f0b00ec;
         public static final int Base_TextAppearance_AppCompat=0x7f0b0098;
         public static final int Base_TextAppearance_AppCompat_Body1=0x7f0b00a3;
         public static final int Base_TextAppearance_AppCompat_Body2=0x7f0b00a2;

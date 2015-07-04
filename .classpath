@@ -5,5 +5,9 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="E:/Study/Android/adt-bundle-windows-x86_64-20131030/workspace/BChat/libfb303-0.9.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/Study/Android/adt-bundle-windows-x86_64-20131030/workspace/BChat/libthrift-0.9.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/Study/Android/adt-bundle-windows-x86_64-20131030/workspace/BChat/slf4j-api-1.7.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/Study/Android/adt-bundle-windows-x86_64-20131030/workspace/javax.annotation.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

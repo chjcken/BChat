@@ -7,5 +7,13 @@
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
         <!-- API 11 theme customizations can go here. -->
     </style>
+    
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!-- Background Color for Toolbar -->
+        <item name="colorPrimary">@color/ColorPrimary</item>
+    </style>
 
 </resources>
